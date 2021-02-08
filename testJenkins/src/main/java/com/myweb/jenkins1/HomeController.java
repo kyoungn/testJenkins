@@ -32,6 +32,7 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+		model.addAttribute("title", "제목" );
 		
 		return "home";
 	}
